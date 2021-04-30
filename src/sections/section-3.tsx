@@ -19,7 +19,7 @@ export default function Section3() {
           Developed team skills, friendly. I keep my finger on the pulse of IT
           and strive to meet modern standards. I know English, level B2. As a
           competent engineer, I first of all care about optimization, convenient
-          architecture and scalability of the project. d
+          architecture and scalability of the project.
         </Information>
       </RightSide>
     </Layout>
@@ -31,6 +31,7 @@ const Information = styled.p`
   line-height: 32px;
   color: rgba(25, 37, 49, 0.9);
   margin-right: 50px;
+  
 `;
 
 const Image = styled.img`
