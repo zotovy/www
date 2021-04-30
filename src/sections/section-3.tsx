@@ -35,7 +35,9 @@ const Information = styled.p`
   @media screen and (min-width: 620px) and (max-width: 960px) {
     max-width: 700px;
     text-align: center;  
+    margin-right: 0;
   }
+  
 `;
 
 const Image = styled.img`
@@ -51,6 +53,7 @@ const Image = styled.img`
     width: calc(100vw - 40px);
     height: calc(100vw - 40px);
     margin-bottom: 10px;
+    margin-left: 0;
   }
 `;
 
@@ -67,6 +70,10 @@ const RightSide = styled.div`
   ${Information}:last-child {
     margin-bottom: 0;
   }
+  
+  @media screen and (max-width: 960px) {
+      align-items: center;
+  }
 `;
 
 const Layout = styled.div`
@@ -76,7 +83,7 @@ const Layout = styled.div`
     align-items: center;
   }
   
-  @media screen and (max-width: 620px) {
+  @media screen and (max-width: 960px) {
     flex-direction: column;
   }
 `;

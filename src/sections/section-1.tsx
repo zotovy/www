@@ -29,12 +29,12 @@ const Title = styled.h1`
   color: var(--text);
   ${ fade };
 
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 790px) and (max-width: 960px) {
     line-height: 72px;
     font-size: 48px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     font-size: 32px;
     line-height: 48px;
     text-align: center;
@@ -50,12 +50,12 @@ const Subtitle = styled.span`
   max-width: 326px;
   ${ fade };
 
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 790px) and (max-width: 960px) {
     line-height: 26px;
     font-size: 18px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     text-align: center;
     font-size: 17px;
     line-height: 25px;
@@ -72,7 +72,7 @@ const Buttons = styled.div`
     margin-right: 40px;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     width: 100%;
     
     .button[data-type=secondary] {
@@ -89,6 +89,10 @@ const Buttons = styled.div`
 const Image = styled.img`
   width: 50%;
   ${ fade };
+  
+  @media screen and (max-width: 790px) {
+      width: 90%;
+  }
 `
 
 const RightSide = styled.div`
@@ -96,7 +100,7 @@ const RightSide = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     align-items: center;
     margin-top: 40px;
     min-width: 50%;
@@ -117,7 +121,7 @@ const Section = styled.section`
   overflow: hidden;
   ${ SectionLayoutStyles };
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     flex-direction: column-reverse;
     padding: 20px;
   }

@@ -46,10 +46,37 @@ const Placeholder = styled.div`
   &:hover {
     background: #c0c0c0;
   }
+  
+  @media screen and (min-width: 850px) and (max-width: 1024px) {
+    &.first, &.second {
+      width: 300px;
+      height: 200px;
+    }
+
+    &.third {
+      width: 100%;
+      height: 430px;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    width: 100% !important;
+    height: 0 !important;
+    padding-top: 56.25%;
+    
+    &.third {
+      margin-top: 30px;
+    }
+    //height: 238px !important;
+  }
 `;
 
 const Layout = styled.div`
   display: flex;
+
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+  }
 `;
 
 const Section = styled.section`
