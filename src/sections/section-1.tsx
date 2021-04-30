@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Button from "@/components/button"
+import SectionLayoutStyles from "../layouts/sections"
 
 
 export default function Section1() {
@@ -113,10 +114,8 @@ const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 30px;
   overflow: hidden;
+  ${ SectionLayoutStyles };
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
