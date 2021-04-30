@@ -32,6 +32,10 @@ const Information = styled.p`
   color: rgba(25, 37, 49, 0.9);
   margin-right: 50px;
   
+  @media screen and (min-width: 620px) and (max-width: 960px) {
+    max-width: 700px;
+    text-align: center;  
+  }
 `;
 
 const Image = styled.img`
@@ -42,6 +46,12 @@ const Image = styled.img`
   border-radius: 20px;
   margin-left: 50px;
   margin-right: 70px;
+
+  @media screen and (max-width: 620px) {
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+    margin-bottom: 10px;
+  }
 `;
 
 const RightSide = styled.div`
@@ -61,6 +71,14 @@ const RightSide = styled.div`
 
 const Layout = styled.div`
   display: flex;
+  
+  @media screen and (min-width: 620px) and (max-width: 960px) {  
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 620px) {
+    flex-direction: column;
+  }
 `;
 
 const Section = styled.section`
