@@ -6,12 +6,14 @@ export type Props = {
 }
 
 const Button: React.FC<Props> = (props) => {
-  return <Container>
+  const type = props.type ?? "primary"
+
+  return <Container data-type={ type }>
     { props.children }
-  </Container>;
+  </Container>
 }
 
-export default Button;
+export default Button
 
 const Container = styled.div`
   background-color: var(--primary);
@@ -26,12 +28,26 @@ const Container = styled.div`
   user-select: none;
   transition: transform 300ms;
   transition-delay: 50ms;
-  
+
   &:active {
     transform: scale(0.95);
   }
-  
+
   &:hover {
     background-color: rgba(--primaryActive);
   }
-`;
+  
+  &[data-type=secondary] {
+    color: var(--primary);
+    background-color: var(--primaryLight);
+    box-shadow: none;
+    
+    &:active {
+      transform: none;
+    }
+
+    &:hover {
+      background-color: rgba(--primaryActive);
+    }
+  }
+`

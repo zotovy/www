@@ -9,6 +9,6 @@ const Container = styled.div`
 
 export default function IndexPage() {
   return <Container>
-    <Button>My button</Button>
+    <Button type="secondary">My button</Button>
   </Container>
 }
