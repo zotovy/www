@@ -40,3 +40,15 @@ h1, h2, h3, h4, h5, h6, p, span {
     --text: #192531;
     --secondary: #76869F;
 }
+
+@keyframes fadeAnim {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

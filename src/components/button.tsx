@@ -27,7 +27,7 @@ const Container = styled.div`
   cursor: pointer;
   user-select: none;
   transition: transform 300ms;
-  transition-delay: 50ms;
+  transition-delay: 100ms;
   text-align: center;
 
   &:active {

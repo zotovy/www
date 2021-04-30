@@ -17,6 +17,8 @@ export default function Section1() {
   </Section>
 }
 
+const fade = `animation: fadeAnim 1s ease; animation-fill-mode: both;`;
+
 const Title = styled.h1`
   font-weight: bold;
   font-size: 54px;
@@ -24,6 +26,7 @@ const Title = styled.h1`
   margin-bottom: 20px;
   max-width: 444px;
   color: var(--text);
+  ${ fade };
 
   @media screen and (min-width: 768px) and (max-width: 960px) {
     line-height: 72px;
@@ -43,6 +46,7 @@ const Subtitle = styled.span`
   letter-spacing: 0.02em;
   color: var(--secondary);
   max-width: 326px;
+  ${ fade };
 
   @media screen and (min-width: 768px) and (max-width: 960px) {
     line-height: 26px;
@@ -61,6 +65,7 @@ const Subtitle = styled.span`
 const Buttons = styled.div`
   display: flex;
   margin-top: 30px;
+  ${ fade };
 
   .button[data-type=primary] {
     margin-right: 40px;
@@ -82,6 +87,7 @@ const Buttons = styled.div`
 
 const Image = styled.img`
   width: 50%;
+  ${ fade };
 `
 
 const RightSide = styled.div`
@@ -103,6 +109,7 @@ const Section = styled.section`
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
+  overflow: hidden;
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
