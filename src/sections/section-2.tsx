@@ -26,6 +26,14 @@ const Grid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  
+  @media screen and (min-width: 678px) and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 678px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const Section = styled.section`
