@@ -37,6 +37,7 @@ const Title = styled.h1`
     font-size: 32px;
     line-height: 48px;
     text-align: center;
+    max-width: 305px;
   }
 `
 
@@ -57,8 +58,7 @@ const Subtitle = styled.span`
     text-align: center;
     font-size: 17px;
     line-height: 25px;
-    width: 100%;
-    max-width: initial;
+    max-width: 345px;
   }
 `
 
@@ -96,7 +96,14 @@ const RightSide = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 768px) {
+    align-items: center;
     margin-top: 40px;
+    min-width: 50%;
+  }
+  
+  @media screen and (max-width: 550px) {
+    width: 75%;
+    max-width: initial;
   }
 `
 
@@ -113,6 +120,7 @@ const Section = styled.section`
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
+    padding: 20px;
   }
 `
 
