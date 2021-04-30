@@ -1,14 +1,13 @@
 import React from "react";
 import styled from "styled-components"
-import Button from "@/components/button"
+import Section1 from "@/sections/section-1";
 
 const Container = styled.div`
-  padding: 30px;
-  width: 150px;
+
 `;
 
 export default function IndexPage() {
   return <Container>
-    <Button type="secondary">My button</Button>
+    <Section1/>
   </Container>
 }

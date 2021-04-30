@@ -8,7 +8,7 @@ export type Props = {
 const Button: React.FC<Props> = (props) => {
   const type = props.type ?? "primary"
 
-  return <Container data-type={ type }>
+  return <Container data-type={ type } className="button">
     { props.children }
   </Container>
 }
@@ -28,6 +28,7 @@ const Container = styled.div`
   user-select: none;
   transition: transform 300ms;
   transition-delay: 50ms;
+  text-align: center;
 
   &:active {
     transform: scale(0.95);
@@ -49,5 +50,9 @@ const Container = styled.div`
     &:hover {
       background-color: rgba(--primaryActive);
     }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding: 10px 26px;
   }
 `

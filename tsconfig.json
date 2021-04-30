@@ -15,7 +15,8 @@
     "preserveConstEnums": true,
     "baseUrl": "src",
     "paths": {
-      "@/components/*": [ "components/*" ]
+      "@/components/*": [ "components/*" ],
+      "@/sections/*": [ "sections/*" ]
     }
   },
   "include": ["./src/**/*", "./stories/**/*"]
