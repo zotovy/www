@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import SectionLayoutStyles from "../layouts/sections"
 import Title from "@/components/Title"
+import MoreText from "@/components/more"
 
 export default function Section4() {
   return <Section>
@@ -13,6 +14,7 @@ export default function Section4() {
       </div>
       <Placeholder className="third"/>
     </Layout>
+    <MoreText>More</MoreText>
   </Section>
 }
 
