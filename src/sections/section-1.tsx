@@ -14,11 +14,9 @@ export default function Section1() {
         <Button type="secondary">My Works</Button>
       </Buttons>
     </RightSide>
-    <Image src="/images/section-1.png" />
+    <Image src="/images/section-1.png" draggable={false} />
   </Section>
 }
-
-const fade = `animation: fadeAnim 1s ease; animation-fill-mode: both;`;
 
 const Title = styled.h1`
   font-weight: bold;
@@ -27,7 +25,19 @@ const Title = styled.h1`
   margin-bottom: 20px;
   max-width: 444px;
   color: var(--text);
-  ${ fade };
+  animation: fadeTitle 1s ease; 
+  animation-fill-mode: both;
+  
+  @keyframes fadeTitle {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
   @media screen and (min-width: 790px) and (max-width: 960px) {
     line-height: 72px;
@@ -48,7 +58,20 @@ const Subtitle = styled.span`
   letter-spacing: 0.02em;
   color: var(--secondary);
   max-width: 326px;
-  ${ fade };
+  animation: fadeSubtitle 1s ease;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
+
+  @keyframes fadeSubtitle {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
   @media screen and (min-width: 790px) and (max-width: 960px) {
     line-height: 26px;
@@ -66,10 +89,29 @@ const Subtitle = styled.span`
 const Buttons = styled.div`
   display: flex;
   margin-top: 30px;
-  ${ fade };
+ 
+  @keyframes fadeButton {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
   .button[data-type=primary] {
     margin-right: 40px;
+    animation: fadeButton 1s ease;
+    animation-fill-mode: both;
+    animation-delay: 600ms;
+  }
+
+  .button[data-type=secondary] {
+    animation: fadeButton 1s ease;
+    animation-fill-mode: both;
+    animation-delay: 800ms;
   }
   
   @media screen and (max-width: 790px) {
@@ -88,10 +130,20 @@ const Buttons = styled.div`
 
 const Image = styled.img`
   width: 50%;
-  ${ fade };
+  animation: fade 1s ease;
+  animation-fill-mode: both;
   
   @media screen and (max-width: 790px) {
       width: 90%;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to { 
+      opacity: 1;
+    }
   }
 `
 
