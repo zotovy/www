@@ -1,7 +1,6 @@
 <h1 align="center">
 	<img src="https://github.com/zotovY/www/blob/master/.github/logo.png?raw=true" height="100px" />
 	<br/>
-	Yaroslav Zotov | Fullstack developer
 </h1>
 
 
