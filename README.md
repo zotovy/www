@@ -3,9 +3,6 @@
 	<br/>
 </h1>
 
-
-My personal website and portfolio
-
 ![Website preview](./.github/screenshot.png)
 
 ### Available commands
