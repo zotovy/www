@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import SectionLayoutStyles from "../layouts/sections"
-import Title from "@/components/Title"
+import Title from "@/components/title"
 import MoreText from "@/components/more"
 
 export default function Section4() {

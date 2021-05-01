@@ -1,4 +1,4 @@
-import Title from "@/components/Title"
+import Title from "@/components/title"
 import { css } from "styled-components";
 
 const SectionLayoutStyles = css`
