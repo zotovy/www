@@ -11,5 +11,6 @@ export default function Seo() {
     <meta name="robots" content="index, follow" />
     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
+    <meta property="og:image" content="/og-image.png" />
   </Helmet>
 }
