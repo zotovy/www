@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "zotov-www",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My personal website and portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Yaroslav Zotov <m@zotov.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.4.0",
