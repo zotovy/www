@@ -121,6 +121,11 @@ const Buttons = styled.div`
   
   @media screen and (max-width: 790px) {
     width: 100%;
+    flex-direction: column;
+    
+    .button {
+      width: auto !important;
+    }
     
     .button[data-type=secondary] {
       display: none;
