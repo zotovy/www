@@ -1,7 +1,9 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 export default function Seo() {
-  return <React.Fragment>
+  return <Helmet>
+    <title>Yaroslav Zotov | Fullstack developer</title>
     <meta name="title" content="Yaroslav Zotov | Fullstack developer" />
     <meta name="description" content="Personal portfolio of Fullstack web and mobile developer Yaroslav Zotov" />
     <meta name="keywords"
@@ -9,5 +11,5 @@ export default function Seo() {
     <meta name="robots" content="index, follow" />
     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
-  </React.Fragment>
+  </Helmet>
 }

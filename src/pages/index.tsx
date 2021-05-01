@@ -1,5 +1,4 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import styled from "styled-components"
 import Section1 from "@/sections/section-1"
 import Section2 from "@/sections/section-2"
@@ -15,10 +14,7 @@ const Container = styled.div`
 
 export default function IndexPage() {
   return <Container>
-    <Helmet>
-      <title>Yaroslav Zotov | Fullstack developer</title>
-      <Seo/>
-    </Helmet>
+    <Seo/>
     <Section1 />
     <Section2 />
     <Section3 />
