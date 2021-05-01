@@ -186,6 +186,7 @@ const Section = styled.section`
   @media screen and (max-width: 790px) {
     flex-direction: column-reverse;
     padding: 20px;
+    margin-bottom: 100px;
   }
 `
 
