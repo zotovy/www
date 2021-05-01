@@ -10,7 +10,7 @@ export type Props = {
 const ContactBadge: React.FC<Props> = (props) => {
   return <a href={ props.href } target="_blank">
     <Container className="contact-badge">
-      <Icon src={ props.icon } />
+      <Icon width={36} height={36} src={ props.icon } />
       <Title>{ props.title }</Title>
     </Container>
   </a>
