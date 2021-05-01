@@ -40,12 +40,21 @@ const Title = styled.h5`
   font-size: 24px;
   color: var(--text);
   margin-bottom: 15px;
+  
+  @media screen and (max-width: 960px) {
+      font-size: 20px;
+  }
 `;
 
 const Subtitle = styled.p`
   font-size: 20px;
   line-height: 32px;
   color: var(--secondary);
+
+  @media screen and (max-width: 960px) {
+    font-size: 18px;
+    line-height: 32px;
+  }
 `;
 
 const Container = styled.div`
