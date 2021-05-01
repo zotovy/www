@@ -5,7 +5,7 @@ import Title from "@/components/title"
 import MoreText from "@/components/more"
 
 export default function Section4() {
-  return <Section>
+  return <Section id="my-projects-section">
     <Title>My Projects</Title>
     <Layout>
       <div>

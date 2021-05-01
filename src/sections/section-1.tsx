@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'gatsby-link'
 import styled from "styled-components"
 import Button from "@/components/button"
 import SectionLayoutStyles from "../layouts/sections"
@@ -10,8 +11,12 @@ export default function Section1() {
       <Title>Developer you were looking for </Title>
       <Subtitle>Hi! I’m Yaroslav Zotov. Fullstack Developer based in Russia.</Subtitle>
       <Buttons>
-        <Button type="primary">Contact Me</Button>
-        <Button type="secondary">My Works</Button>
+        <Link to="https://linkup.zotov.dev/zotovy" target="_blank">
+          <Button type="primary">Contact Me</Button>
+        </Link>
+        <Link to="#my-projects-section">
+          <Button type="secondary">My Works</Button>
+        </Link>
       </Buttons>
     </RightSide>
     <Image src="/images/section-1.png" draggable={false} />
