@@ -7,7 +7,7 @@ export default function Section3() {
   return <Section>
     <Title>About Me</Title>
     <Layout>
-      <Image />
+      <Image src="/me.jpg" />
       <RightSide>
         <Information>
           Hi! My name is Yaroslav Zotov. I’m 15 y.o. based in Perm, Russia.
