@@ -14,7 +14,7 @@ export default function Section4() {
       </div>
       <Placeholder className="third"/>
     </Layout>
-    <MoreText>More</MoreText>
+    {/*<MoreText>More</MoreText>*/}
   </Section>
 }
 
