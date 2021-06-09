@@ -1,3 +1,7 @@
+import wrapper from "./wrapRootElement"
+
+export const wrapRootElement = wrapper;
+
 /**
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
  *

@@ -21,6 +21,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-scroll-parallax": "^2.4.0",
     "sass": "^1.32.12",
     "styled-components": "^5.2.3"
   },
@@ -36,6 +37,7 @@
     "@types/react-helmet": "^6.1.1",
     "@types/styled-components": "^5.1.9",
     "babel-loader": "^8.2.2",
+    "babel-preset-airbnb": "^5.0.0",
     "gatsby-plugin-tsconfig-paths": "^1.0.3",
     "gatsby-plugin-typescript": "^3.4.0",
     "prettier": "2.2.1",

@@ -1,4 +1,7 @@
 import "./src/global.scss";
+import wrapper from "./wrapRootElement"
+
+export const wrapRootElement = wrapper;
 
 /**
  * Implement Gatsby's Browser APIs in this file.
