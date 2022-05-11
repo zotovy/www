@@ -21,6 +21,7 @@ export default ContactBadge
 const Icon = styled.img`
   width: 36px;
   margin-right: 10px;
+  fill: var(--primary);
 `
 
 const Title = styled.span`

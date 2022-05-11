@@ -19,7 +19,7 @@ export default function Section1() {
         </Link>
       </Buttons>
     </RightSide>
-    <Image alt="" src="/images/section-1.png" draggable={false} />
+    <Image alt="" src="images/section-1.png" draggable={false} />
   </Section>
 }
 

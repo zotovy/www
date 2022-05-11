@@ -11,9 +11,12 @@ export default function Section4() {
       <div>
         <Project
           className="first"
-          src="/images/epos/cover.png"
+          src="images/epos/cover.png"
           onClick={() => navigate("/projects/epos")}/>
-        <Placeholder className="second"/>
+        <Project
+            className="second"
+            src="images/phototime.jpg"
+            onClick={() => navigate("https://phototime.zotov.dev")}/>
       </div>
       <Placeholder className="third"/>
     </Layout>
@@ -26,6 +29,7 @@ const Project = styled.img`
   cursor: pointer;
   transition: transform 300ms, background 200ms;
   transition-delay: 100ms;
+  object-fit: cover;
   
   &.first, &.second {
     flex: 0 0 auto;

@@ -5,9 +5,9 @@ import ContactBadge from "@/components/contact-badge"
 
 export default function Section6() {
   return <Section>
-    <ContactBadge href="https://t.me/zotovy" title="telegram" icon="/icons/telegram.png"/>
-    <ContactBadge href="mailto:m@zotov.dev" title="m@zotov.dev" icon="/icons/email.png"/>
-    <ContactBadge href="https://github.com/zotovY" title="github" icon="/icons/github.png"/>
+    <ContactBadge href="https://t.me/zotovy" title="telegram" icon="icons/telegram.svg"/>
+    <ContactBadge href="mailto:m@zotov.dev" title="m@zotov.dev" icon="icons/email.svg"/>
+    <ContactBadge href="https://github.com/zotovY" title="github" icon="icons/github.svg"/>
   </Section>
 }
 
