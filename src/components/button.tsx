@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 export type Props = {
   type?: "primary" | "secondary",
+  children: React.ReactNode
 }
 
 const Button: React.FC<Props> = (props) => {

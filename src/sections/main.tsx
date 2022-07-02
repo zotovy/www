@@ -10,9 +10,9 @@ export default function Main() {
             <Title>Developer you were looking for </Title>
             <Subtitle>Hi! I’m Yaroslav Zotov. Fullstack Developer based in Russia.</Subtitle>
             <Buttons>
-                <Link to="https://linkup.zotov.dev/zotovy" target="_blank">
+                <a href="https://linkup.zotov.dev/zotovy" target="_blank" rel="noreferrer">
                     <Button type="primary">Contact Me</Button>
-                </Link>
+                </a>
                 <Link to="#my-projects-section">
                     <Button type="secondary">My Works</Button>
                 </Link>
