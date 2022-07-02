@@ -1,11 +1,18 @@
-import React from "react"
+import React, {useCallback} from "react"
 import { navigate } from "gatsby";
 import styled from "styled-components"
-import SectionLayoutStyles from "../layouts/sections"
+import SectionLayoutStyles from "@/layouts/sections"
 import Title from "@/components/title"
 import ProjectPreview from "@/components/project-preview";
+import {trackProjectClick} from "@analytics";
 
 export default function MyProjects() {
+  
+  const handleClick = useCallback((page: string) => () => {
+    trackProjectClick(page)
+    return navigate(page)
+  }, [])
+  
   return <Section id="my-projects-section">
     <Title>My Projects</Title>
     <Layout>
@@ -13,11 +20,11 @@ export default function MyProjects() {
         <ProjectPreview
           className="first"
           src="images/epos/cover.png"
-          onClick={() => navigate("/projects/epos")}/>
+          onClick={handleClick("/projects/epos")}/>
         <ProjectPreview
             className="second"
             src="images/phototime.jpg"
-            onClick={() => navigate("https://phototime.zotov.dev")}/>
+            onClick={handleClick("https://phototime.zotov.dev")}/>
       </div>
       <Placeholder className="third"/>
     </Layout>

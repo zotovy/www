@@ -17,7 +17,9 @@
     "paths": {
       "@/components/*": [ "components/*" ],
       "@/sections/*": [ "sections/*" ],
-      "@/config/*": [ "config/*" ]
+      "@/config/*": [ "config/*" ],
+      "@/layouts/*": [ "layouts/*" ],
+      "@analytics": [ "analytics" ]
     }
   },
   "include": ["./src/**/*", "./stories/**/*"]
