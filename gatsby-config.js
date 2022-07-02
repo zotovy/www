@@ -1,3 +1,23 @@
+// Load variables from file
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+/**
+ * Validate environment variable
+ * @throws exception if not all variables are set
+ */
+
+const envs = {
+  GATSBY_GA_TRACKING_ID: process.env.GATSBY_GA_TRACKING_ID,
+}
+
+for (let [name, variable] of Object.entries(envs)) {
+  if (typeof variable === "undefined") {
+    throw new Error(`Missing env variable ${name}`)
+  }
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,

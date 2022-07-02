@@ -16,7 +16,8 @@
     "baseUrl": "src",
     "paths": {
       "@/components/*": [ "components/*" ],
-      "@/sections/*": [ "sections/*" ]
+      "@/sections/*": [ "sections/*" ],
+      "@/config/*": [ "config/*" ]
     }
   },
   "include": ["./src/**/*", "./stories/**/*"]
