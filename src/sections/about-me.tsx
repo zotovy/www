@@ -40,7 +40,6 @@ const Information = styled.p`
     max-width: 700px;
     text-align: center;
   }
-
 `
 
 const Image = styled.img`
@@ -85,9 +84,6 @@ const RightSide = styled.div`
 const Layout = styled.div`
   display: flex;
   align-items: center;
-
-  @media screen and (min-width: 620px) and (max-width: 960px) {
-  }
 
   @media screen and (max-width: 960px) {
     flex-direction: column;

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import CardShadowStyle from "@/components/card-shadow";
 
 export type Props = {
   icon: string;
@@ -39,5 +40,7 @@ const Container = styled.div`
   width: 232px;
   display: flex;
   align-items: center;
+  
+  ${CardShadowStyle};
 `
 

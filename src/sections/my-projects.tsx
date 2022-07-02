@@ -74,7 +74,6 @@ const Project = styled.img`
     &.third {
       margin-top: 30px;
     }
-    //height: 238px !important;
   }
 `;
 
@@ -130,7 +129,6 @@ const Placeholder = styled.div`
     &.third {
       margin-top: 30px;
     }
-    //height: 238px !important;
   }
 `;
 
