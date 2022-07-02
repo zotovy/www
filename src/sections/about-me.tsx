@@ -3,7 +3,7 @@ import styled from "styled-components"
 import SectionLayoutStyles from "../layouts/sections"
 import Title from "@/components/title"
 
-export default function Section3() {
+export default function AboutMe() {
   return <Section>
     <Title>About Me</Title>
     <Layout>

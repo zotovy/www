@@ -4,8 +4,7 @@ import styled from "styled-components"
 import Button from "@/components/button"
 import SectionLayoutStyles from "../layouts/sections"
 
-
-export default function Section1() {
+export default function Main() {
   return <Section>
     <RightSide>
       <Title>Developer you were looking for </Title>

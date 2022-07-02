@@ -3,7 +3,7 @@ import styled from "styled-components"
 import SectionLayoutStyles from "../layouts/sections"
 import ContactBadge from "@/components/contact-badge"
 
-export default function Section6() {
+export default function ContactMe() {
   return <Section>
     <ContactBadge href="https://t.me/zotovy" title="telegram" icon="icons/telegram.svg"/>
     <ContactBadge href="mailto:m@zotov.dev" title="m@zotov.dev" icon="icons/email.svg"/>

@@ -4,7 +4,7 @@ import styled from "styled-components"
 import SectionLayoutStyles from "../layouts/sections"
 import Title from "@/components/title"
 
-export default function Section4() {
+export default function MyProjects() {
   return <Section id="my-projects-section">
     <Title>My Projects</Title>
     <Layout>
@@ -20,7 +20,6 @@ export default function Section4() {
       </div>
       <Placeholder className="third"/>
     </Layout>
-    {/*<MoreText>More</MoreText>*/}
   </Section>
 }
 

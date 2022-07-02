@@ -4,7 +4,7 @@ import SectionLayoutStyles from "../layouts/sections"
 import Title from "@/components/title"
 import SkillCard from "@/components/skill-card"
 
-export default function Section2() {
+export default function TechStack() {
   return <Section>
     <Title>Tech Stack</Title>
     <Grid>
