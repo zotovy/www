@@ -15,27 +15,26 @@ const Button: React.FC<Props> = (props) => {
 
 export default Button
 
-const Container = styled.div`
+const Container = styled.button`
   background-color: var(--primary);
   padding: 12px 30px;
   border-radius: 10px;
-  box-shadow: 0px 9px 27px -10px rgba(0, 99, 255, 0.35);
+  box-shadow: 0 9px 27px -10px rgba(0, 99, 255, 0.35);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
   cursor: pointer;
-  user-select: none;
-  transition: transform 300ms;
-  transition-delay: 100ms;
+  transition: transform 300ms, background-color 300ms;
   text-align: center;
-
-  &:active {
-    transform: scale(0.95);
-  }
+  border: none;
 
   &:hover {
-    background-color: rgba(--primaryActive);
+    background-color: var(--primaryHover);
+  }
+
+  &:focus {
+    transform: scale(0.95);
   }
   
   &[data-type=secondary] {
@@ -48,7 +47,7 @@ const Container = styled.div`
     }
 
     &:hover {
-      background-color: rgba(--primaryActive);
+      background-color: var(--primaryLightHover);
     }
   }
 

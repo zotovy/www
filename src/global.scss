@@ -37,7 +37,9 @@ h1, h2, h3, h4, h5, h6, p, span {
 :root {
     --primary: #0063FF;
     --primaryActive: #b0ceff;
+    --primaryHover: #1045e7;
     --primaryLight: #E9F5FF;
+    --primaryLightHover: #e0ecf5;
     --text: #192531;
     --secondary: #76869F;
 }
@@ -55,5 +57,9 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 a {
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 

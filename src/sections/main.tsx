@@ -5,21 +5,21 @@ import Button from "@/components/button"
 import SectionLayoutStyles from "../layouts/sections"
 
 export default function Main() {
-  return <Section>
-    <RightSide>
-      <Title>Developer you were looking for </Title>
-      <Subtitle>Hi! I’m Yaroslav Zotov. Fullstack Developer based in Russia.</Subtitle>
-      <Buttons>
-        <Link to="https://linkup.zotov.dev/zotovy" target="_blank">
-          <Button type="primary">Contact Me</Button>
-        </Link>
-        <Link to="#my-projects-section">
-          <Button type="secondary">My Works</Button>
-        </Link>
-      </Buttons>
-    </RightSide>
-    <Image alt="" src="images/section-1.png" draggable={false} />
-  </Section>
+    return <Section>
+        <RightSide>
+            <Title>Developer you were looking for </Title>
+            <Subtitle>Hi! I’m Yaroslav Zotov. Fullstack Developer based in Russia.</Subtitle>
+            <Buttons>
+                <Link to="https://linkup.zotov.dev/zotovy" target="_blank">
+                    <Button type="primary">Contact Me</Button>
+                </Link>
+                <Link to="#my-projects-section">
+                    <Button type="secondary">My Works</Button>
+                </Link>
+            </Buttons>
+        </RightSide>
+        <Image alt="" src="images/section-1.png" draggable={false}/>
+    </Section>
 }
 
 const Title = styled.h1`
@@ -29,9 +29,9 @@ const Title = styled.h1`
   margin-bottom: 20px;
   max-width: 444px;
   color: var(--text);
-  animation: fadeTitle 1s ease; 
+  animation: fadeTitle 1s ease;
   animation-fill-mode: both;
-  
+
   @keyframes fadeTitle {
     from {
       transform: translateY(100px);
@@ -93,7 +93,7 @@ const Subtitle = styled.span`
 const Buttons = styled.div`
   display: flex;
   margin-top: 30px;
- 
+
   @keyframes fadeButton {
     from {
       transform: translateY(40px);
@@ -117,15 +117,15 @@ const Buttons = styled.div`
     animation-fill-mode: both;
     animation-delay: 800ms;
   }
-  
+
   @media screen and (max-width: 790px) {
     width: 100%;
     flex-direction: column;
-    
+
     .button {
       width: auto !important;
     }
-    
+
     .button[data-type=secondary] {
       display: none;
     }
@@ -141,16 +141,16 @@ const Image = styled.img`
   width: 50%;
   animation: fade 1s ease;
   animation-fill-mode: both;
-  
+
   @media screen and (max-width: 790px) {
-      width: 90%;
+    width: 90%;
   }
-  
+
   @keyframes fade {
     from {
       opacity: 0;
     }
-    to { 
+    to {
       opacity: 1;
     }
   }
@@ -180,7 +180,7 @@ const Section = styled.section`
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  ${ SectionLayoutStyles };
+  ${SectionLayoutStyles};
 
   @media screen and (max-width: 790px) {
     flex-direction: column-reverse;
