@@ -14,7 +14,7 @@ export default function TechStack() {
       <SkillCard title="ASP.NET Core" subtitle="Free and open-source framework by Microsoft for building amazing APIs  "/>
       <SkillCard title="Mongo, SQL, Redis" subtitle="Powerful key-value, relational and non-relational databases."/>
       <SkillCard title="SASS & SCSS" subtitle="CSS-based languages designed to increase the abstraction level of styles."/>
-      <SkillCard title="UI / UX" subtitle="Designing the interface for mobile and web apps using Figma and Adobe XD"/>
+      <SkillCard title="Go" subtitle="is a statically typed, compiled programming language, perfect for microservices"/>
       <SkillCard title="MVC, DDD,  OOP" subtitle="Software product architecture and programming paradigms."/>
       <SkillCard title="Typescript" subtitle="A static typed programming language that extends the capabilities of JS."/>
     </Grid>
