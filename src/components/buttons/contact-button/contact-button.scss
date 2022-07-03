@@ -1,0 +1,102 @@
+.contact-button {
+    border: 1px solid var(--primary);
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    height: 80px;
+    border-radius: 6px;
+
+    &:before {
+        content: '';
+        background-color: var(--primary);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: skew(0, 10deg) rotate(10deg) translateY(250px);
+        transition: transform 400ms;
+        z-index: -10
+    }
+
+    .icon {
+        height: 100%;
+        padding: 0 40px;
+        margin-right: 40px;
+        display: flex;
+        box-sizing: border-box;
+        border-right: 1px solid var(--primary);
+        justify-content: center;
+        align-items: center;
+        transition: border-right 400ms;
+
+        svg path {
+            transition: fill 400ms;
+        }
+
+        @media (max-width: 834px) {
+            padding: 0 20px;
+            margin-right: 20px;
+        }
+    }
+
+    span.mail {
+        font-family: 'Averta', sans-serif;
+        color: var(--primary);
+        font-size: 1.4vw;
+        transform: scale(1);
+        opacity: 1;
+        transition: transform 400ms cubic-bezier(0, 0.45, 0.15, 1), opacity 400ms cubic-bezier(0, 0.45, 0.15, 1),
+        color 400ms cubic-bezier(0, 0.45, 0.15, 1);
+        
+        @media (min-width: 1201px) {
+            font-size: 28px;
+        }
+
+        @media (min-width: 834px) and (max-width: 1200px) {
+            font-size: 2vw;
+        }
+
+        @media (max-width: 834px) {
+            font-size: 4vw;
+        }
+    }
+
+    &:after {
+        content: attr(data-status);
+        font-size: 16px;
+        position: absolute;
+        /*top: calc(50% - 8px);*/
+        color: rgba(255, 255, 255, 0.75);
+        font-family: "Averta", sans-serif;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 400ms;
+        right: 10px;
+    }
+
+    &:hover {
+        &:before {
+            transform: skew(0, 0) rotate(0) translateY(0);
+        }
+        
+        &:after {
+            opacity: 1;
+        }
+        
+        .icon {
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+            svg path {
+                fill: white;
+            }
+        }
+
+        .mail {
+            color: white;
+            transform: scale(0.95);
+        }
+    }
+}

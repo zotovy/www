@@ -19,7 +19,8 @@
       "@/sections/*": [ "sections/*" ],
       "@/config/*": [ "config/*" ],
       "@/layouts/*": [ "layouts/*" ],
-      "@analytics": [ "analytics" ]
+      "@analytics": [ "analytics" ],
+      "@modules/*": [ "modules/*" ],
     }
   },
   "include": ["./src/**/*", "./stories/**/*"]

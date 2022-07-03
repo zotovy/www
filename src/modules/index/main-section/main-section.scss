@@ -1,0 +1,59 @@
+.intro {
+    width: 100%;
+    padding: 0 40px 0 170px;
+    box-sizing: border-box;
+    
+    h1 {
+        animation: anim-text 1050ms cubic-bezier(0, 0.45, 0.15, 1);
+    }
+
+    .tag {
+        display: flex;
+        align-items: center;
+        animation: anim-text 1000ms cubic-bezier(0, 0.45, 0.15, 1);
+
+        svg {
+            margin: 0 30px;
+            fill: #574CF2
+        }
+    }
+
+    .intro-content {
+        margin-left: 420px;
+        width: 45%;
+
+        .text {
+            animation: anim-text 1100ms cubic-bezier(0, 0.45, 0.15, 1);
+            color: var(--secondary);
+            margin: 40px 0;
+
+            &::selection {
+                background-color: var(--primaryActive);
+            }
+        }
+
+        .contact-button {
+            transform-origin: top left;
+            animation: anim-text 1150ms cubic-bezier(0, 0.45, 0.15, 1)
+        }
+
+        @media (min-width: 1080px) and (max-width: 1300px) {
+            width: calc(95% - 320px);
+            margin-left: 320px
+        }
+
+        @media (min-width: 830px) and (max-width: 1080px) {
+            width: 70%;
+            margin-left: 30%;
+        }
+
+        @media (max-width: 834px) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    @media (max-width: 834px) {
+        padding: 0 30px 0 30px;
+    }
+}
