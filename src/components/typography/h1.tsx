@@ -10,10 +10,6 @@ const H1 = styled.h1`
   font-size: 7vw;
   line-height: 9vw;
 
-  &::selection {
-    background-color: #b6cfff;
-  }
-
   @media (min-width: 1500px) {
     font-size: 110px;
     line-height: 130px;

@@ -1,0 +1,188 @@
+.project {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+
+    .badge-new {
+        position: absolute;
+        height: 36px;
+        width: 140px;
+        right: -20px;
+        top: -16px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primary);
+        font-family: 'Averta', sans-serif;
+        border-radius: 40px;
+        z-index: 10;
+        color: white;
+    }
+
+    .intro-container {
+        z-index: 10;
+        transform: translate(-130px, -130px);
+        width: 40%;
+        position: absolute;
+        padding-left: 40px;
+        box-sizing: border-box;
+
+        .intro-title {
+            position: relative;
+            font-family: "Averta", sans-serif;
+            font-size: 48px;
+            color: var(--primary);
+        }
+    }
+    
+    a {
+        display: block;
+        transition: box-shadow 400ms ease-in-out, transform 400ms ease;
+
+        &:before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -10;
+            top: 0;
+            left: 0;
+            outline: 2px solid var(--primary);
+            border-radius: 10px;
+            outline-offset: 0;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: -5
+        }
+
+        .project-img {
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px 10px 0 0;
+
+            img {
+                border-radius: 10px 10px 0 0;
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .project-desc {
+            padding: 40px 40px 80px 80px;
+            box-sizing: border-box;
+            color: var(--primary);
+
+            h3 {
+                color: var(--text);
+            }
+
+            p {
+                color: var(--secondary);
+            }
+
+            .project-number {
+                color: var(--primary);
+                transition: color 200ms
+            }
+
+            .project-arrow {
+                position: relative;
+                display: inline-block;
+                background-color: var(--primary);
+                height: 1px;
+                width: 40px;
+                top: -5px;
+                margin: 0 20px;
+                transition: width 400ms;
+
+                &:before {
+                    top: 0;
+                    transform: rotate(0);
+                    opacity: 0;
+                    content: "";
+                    position: absolute;
+                    background: var(--primary);
+                    height: 1px;
+                    width: 10px;
+                    right: 0;
+                    margin-right: 0;
+                    backface-visibility: hidden;
+                    transition: transform 400ms, top 400ms, opacity 200ms
+                }
+
+                &:after {
+                    top: 0;
+                    transform: rotate(0);
+                    opacity: 0;
+                    content: "";
+                    position: absolute;
+                    background: var(--primary);
+                    height: 1px;
+                    width: 10px;
+                    right: 0;
+                    margin-right: 0;
+                    backface-visibility: hidden;
+                    transition: transform 400ms, top 400ms, opacity 200ms
+                }
+            }
+
+            .project-view {
+                position: absolute;
+                transform: translateX(-10px);
+                opacity: 0;
+                transition: transform 400ms, opacity 200ms, color 400ms;
+                color: var(--primary);
+            }
+
+            .project-client {
+                position: absolute;
+                transform: translateX(0);
+                opacity: 1;
+                transition: transform 400ms, opacity 200ms, color 400ms;
+                color: var(--primary);
+            }
+        }
+
+        &:hover {
+            color: var(--primary);
+            box-shadow: 0 30px 100px rgba(7, 32, 80, 0.15);
+            transform: translateY(-2%) scale(1.025);
+
+            .project-arrow {
+                width: 50px;
+
+                &:before {
+                    top: -3px;
+                    transform: rotate(30deg);
+                    margin-left: 3px;
+                    opacity: 1;
+                }
+
+                &:after {
+                    top: 3px;
+                    transform: rotate(-30deg);
+                    margin-left: 5px;
+                    opacity: 1;
+                }
+            }
+
+            .project-view {
+                transform: translateX(10px);
+                opacity: 1;
+            }
+
+            .project-client {
+                transform: translateX(30px);
+                opacity: 0;
+            }
+        }
+    }
+}
