@@ -1,32 +1,24 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url("/fonts/Poppins-Regular.ttf") ;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url("/fonts/Poppins-Medium.ttf");
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url("/fonts/Poppins-Bold.ttf");
-    font-style: normal;
+    font-family: Averta;
+    src: url("/fonts/hinted-Averta-Bold.eot");
+    src: url("/fonts/hinted-Averta-Bold.eot#iefix") format("embedded-opentype"), url("/fonts/Averta Bold.woff2") format("woff2"), url("/fonts/hinted-Averta-Bold.woff") format("woff");
     font-weight: 700;
-    font-display: swap;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Cotham;
+    src: url("/fonts/cothamsans-webfont.woff2") format("woff2"), url("/fonts/cothamsans-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
 }
 
 body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
     //scroll-behavior: smooth;
 }
 
