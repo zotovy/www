@@ -6,7 +6,16 @@
     .outline-title {
         width: 50%;
         display: block;
-        margin-left: 260px
+        margin-left: 260px;
+        animation: anim-text 1200ms cubic-bezier(0, 0.45, 0.15, 1);
+
+        @media (min-width: 830px) and (max-width: 1080px) {
+            margin: 40px 0 40px 130px;
+        }
+
+        @media (max-width: 834px) {
+            margin: 40px 0 40px 0;
+        }
     }
 
     .contacts-content {
@@ -52,13 +61,22 @@
                         fill: white;
                     }
                 }
-                
+
                 &:hover svg {
                     transform: translateX(20px);
                 }
             }
-            
-            
+
+            @media (min-width: 830px) and (max-width: 1080px) {
+                width: 100%;
+                padding: 80px;
+            }
+
+            @media (max-width: 834px) {
+                width: 100%;
+                padding: 40px 40px;
+                border-radius: 10px;
+            }
         }
 
         .yeah {
@@ -75,6 +93,18 @@
                 font-size: 56px;
                 color: var(--text);
                 font-family: "Averta", sans-serif;
+
+                @media (max-width: 1024px) {
+                    font-size: 48px;
+                }
+                
+                @media (max-width: 768px) {
+                    font-size: 36px;
+                }
+
+                @media (max-width: 360px) {
+                    font-size: 28px;
+                }
             }
 
             p {
@@ -92,6 +122,40 @@
                     align-items: center
                 }
             }
+
+            @media (min-width: 830px) and (max-width: 1080px) {
+                width: 70%;
+                margin: 20px 0 80px 130px;
+            }
+
+            @media (max-width: 834px) {
+                width: 100%;
+                margin: 20px 0 80px 0;
+            }
+
         }
+
+        @media (min-width: 830px) and (max-width: 1080px) {
+            flex-direction: column
+        }
+
+        @media (max-width: 834px) {
+            flex-direction: column;
+        }
+    }
+
+    @media (min-width: 830px) and (max-width: 1080px) {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    @media (max-width: 834px) {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 0 30px;
     }
 }

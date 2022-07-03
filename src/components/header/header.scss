@@ -38,8 +38,6 @@ nav {
         }
 
         @media (max-width: 834px) {
-            width: 30px;
-
             &:hover:after {
                 display: none
             }
@@ -74,12 +72,6 @@ nav {
 
             a:hover svg {
                 transform: translateX(20px);
-            }
-
-            @media (max-width: 834px) {
-                a {
-                    width: 30px
-                }
             }
         }
 

@@ -33,9 +33,22 @@
             font-family: "Averta", sans-serif;
             font-size: 48px;
             color: var(--primary);
+
+            @media (min-width: 830px) and (max-width: 1080px) {
+                transform: translate(-120px, -80px);
+                display: none;
+            }
+
+            @media (max-width: 830px) {
+                display: none;
+            }
+        }
+
+        @media (max-width: 834px) {
+            transform: translate(0, -150px);
         }
     }
-    
+
     a {
         display: block;
         transition: box-shadow 400ms ease-in-out, transform 400ms ease;
@@ -148,6 +161,10 @@
                 opacity: 1;
                 transition: transform 400ms, opacity 200ms, color 400ms;
                 color: var(--primary);
+            }
+
+            @media (max-width: 834px) {
+                padding: 20px 20px 40px 40px;
             }
         }
 

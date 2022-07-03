@@ -16,6 +16,10 @@
             margin: 0 30px;
             fill: #574CF2
         }
+        
+        @media (max-width: 576px) {
+            font-size: 14px;
+        }
     }
 
     .intro-content {
