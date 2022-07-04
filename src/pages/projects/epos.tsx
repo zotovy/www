@@ -1,2 +1,2 @@
-import { EposProject } from "../../modules/epos";
+import { EposProject } from "@modules/epos";
 export default EposProject;
