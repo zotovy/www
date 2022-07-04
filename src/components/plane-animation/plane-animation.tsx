@@ -1,8 +1,6 @@
 import React, {useEffect} from "react";
 import "./plane-animation.scss"
-
-// @ts-ignore
-import anime from 'animejs/lib/anime.es.js'
+import anime from "animejs";
 
 export const PlaneAnimation: React.FC = () => {
     useEffect(() => {

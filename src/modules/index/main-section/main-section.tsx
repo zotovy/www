@@ -20,7 +20,7 @@ export const MainSection: React.FC = () => {
                 <path d="M5.303 32.672L9.16 22.384L87.5 0.5L101.5 44.5L7.038 72L0 45.726L5.303 32.672Z" fill="#4183e7"/>
                 <text transform="rotate(-15 47.263 34.018)" fontFamily="Averta-Bold, Averta" fontSize="18"
                       fontWeight="bold" fill="white">
-                    <tspan x="13" y="40">Fullstack</tspan>
+                    <tspan x="12.5" y="43.5">Fullstack</tspan>
                 </text>               
                 <path d="M20 29.54L0 46L8.615 23L20 29.54Z" fill="#3265b3"/>
             </svg>
