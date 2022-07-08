@@ -24,24 +24,9 @@ export const MainSection: React.FC = () => {
                 </text>               
                 <path d="M20 29.54L0 46L8.615 23L20 29.54Z" fill="#3265b3"/>
             </svg>
-
-            {/*<svg width="90" height="68" xmlns="http://www.w3.org/2000/svg">*/}
-            {/*    <g fill="none" fillRule="evenodd">*/}
-            {/*        <path fill="#EEA1BE" d="M5.303 28.672L9.16 18.384 77.742 0 90 45.762 7.038 68 0 41.726z"/>*/}
-            {/*        <text transform="rotate(-15 47.263 34.018)" fontFamily="Averta-Bold, Averta" fontSize="18"*/}
-            {/*              fontWeight="bold" fill="#18033C">*/}
-            {/*            <tspan x="13.263" y="40.518">Fullstack</tspan>*/}
-            {/*        </text>*/}
-            {/*        <path fill="#C26A8B" d="M20 25.54L0 42l8.615-23z"/>*/}
-            {/*    </g>*/}
-            {/*</svg>*/}
+            
             <span className="margin-designer">Developer</span><br/>
             Creating Web, Mobile & Backend Apps
-            
-            {/*I'm Freelance Developer*/}
-            {/*Creating Web, Mobile & Backend Apps
-            <span className="margin-designer">Developer</span><br/> Turning Your Paperball Into Paperplane
-            */}
         </H1>
 
         <PlaneAnimation/>
