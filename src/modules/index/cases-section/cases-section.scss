@@ -6,7 +6,7 @@
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 40px 0 130px;
-    
+    position: relative;
 
     .outline-title {
         animation: anim-text 1200ms cubic-bezier(0, 0.45, 0.15, 1);
@@ -21,19 +21,32 @@
         }
     }
 
-    .intro-cases {
-        z-index: 10;
-        transform: translate(-130px, -95px);
-        width: 40%;
+    .plane{
         position: absolute;
-        padding-left: 40px;
-        box-sizing: border-box
+        top: 1400px;
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        transform: rotate(12deg);
+        left: 0;
+        
+        @media (max-width: 2410px) {
+            top: 1000px;
+        }
+
+        @media (max-width: 1410px) {
+            top: 70vw;
+        }
+
+        @media (max-width: 1080px) {
+            display: none;
+        }
     }
 
     .project-0 {
         align-self: flex-end;
-        width: 60%;
-        margin: 0 0 180px 420px;
+        width: 75%;
+        margin: 0 0 180px 150px;
         animation: anim-text 1250ms cubic-bezier(0, 0.45, 0.15, 1);
 
         @media (min-width: 830px) and (max-width: 1080px) {

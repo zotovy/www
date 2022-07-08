@@ -10,7 +10,8 @@ type Props = {
     text: string,
     number: string,
     index: number,
-    intro?: string
+    intro?: string,
+    children?: React.ReactNode
 }
 
 export const ProjectPreview: React.FC<Props> = (props) => {
@@ -36,5 +37,7 @@ export const ProjectPreview: React.FC<Props> = (props) => {
                 <p>{props.text}</p>
             </div>
         </a>
+
+        { props.children } 
     </section>
 }

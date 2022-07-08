@@ -2,6 +2,8 @@ import React from "react";
 import "./cases-section.scss"
 import OutlineTitle from "@/components/typography/outline-title";
 import ProjectPreview from "@/components/project-preview";
+import animation from "../../../../static/animations/plane.json"
+import Lottie from "lottie-react";
 
 export const CasesSection: React.FC = () => {
     return <div className="cases">
@@ -19,7 +21,6 @@ export const CasesSection: React.FC = () => {
 
         <ProjectPreview
             coming={false}
-            intro="Reworking School diary"
             href="/projects/epos"
             title="Creating an electronic class register for schoolchildren"
             preview="/images/epos/cover.png"
@@ -37,5 +38,10 @@ export const CasesSection: React.FC = () => {
             text="App calculates the time of the golden and blue hours, and also shows the weather anywhere in the world. A trusted assistant for any photographer"
             number="03"
             index={2}/>
+
+        <div className="plane">
+            <Lottie animationData={animation} loop={true}/>
+        </div>
+        
     </div>
 }
