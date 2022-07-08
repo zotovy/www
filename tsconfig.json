@@ -14,6 +14,7 @@
     "removeComments": false,
     "preserveConstEnums": true,
     "baseUrl": "src",
+    "resolveJsonModule": true,
     "paths": {
       "@/components/*": [ "components/*" ],
       "@/sections/*": [ "sections/*" ],

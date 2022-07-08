@@ -1,0 +1,27 @@
+.page-404 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+        text-align: center;
+        color: var(--primary);
+        text-transform: uppercase;
+        font-family: Averta, Montserrat, sans-serif;
+        font-size: 18px;
+
+        a {
+            text-decoration: underline;
+            color: var(--primary);
+            line-height: 1.5;
+            font-size: 18px;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
