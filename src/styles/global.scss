@@ -49,7 +49,6 @@ h1, h2, h3, h4, h5, h6, p, span {
 :root {
     --primary: #0063FF;
     --primaryActive: #b0ceff;
-    --primaryHover: #1045e7;
     --primaryHover: #0e3cc8;
     --primaryLight: #E9F5FF;
     --primaryLightHover: #e0ecf5;
@@ -80,7 +79,7 @@ html {
 .content {
     max-width: 1600px;
     margin: 0 auto;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 p {

@@ -134,6 +134,28 @@ nav {
         }
     }
 
+    &.light {
+        .logo:after {
+            color: #f2f2f4;
+        }
+        
+        g {
+            fill: white;
+        }
+        
+        a { 
+            color: #f2f2f4;
+            
+            &:hover {
+                color: #e5e5e5;
+            }
+            
+            path {
+                fill: #f2f2f4;
+            }
+        }
+    }
+    
     @media (max-width: 834px) {
         padding: 60px 30px;
     }

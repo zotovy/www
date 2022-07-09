@@ -1,9 +1,14 @@
 import React from "react";
 import "./header.scss";
 import {ArrowRight, EmailIcon, GithubIcon, TelegramIcon} from "@/components/icons/icons";
+import classNames from "classnames";
 
-export const Header: React.FC = () => {
-    return <nav>
+type Props = {
+    variant?: "light" | "dark"
+}
+
+export const Header: React.FC<Props> = (props) => {
+    return <nav className={classNames({ light: props.variant === "light" })}>
         <div className="logo">
             <a href="/">
                 <img src="/images/logo.png" alt="zotov logo" />

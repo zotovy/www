@@ -2,8 +2,6 @@ import React from "react";
 import "./cases-section.scss"
 import OutlineTitle from "@/components/typography/outline-title";
 import ProjectPreview from "@/components/project-preview";
-import animation from "../../../../static/animations/plane.json"
-import Lottie from "lottie-react";
 
 export const CasesSection: React.FC = () => {
     return <div className="cases">
@@ -39,9 +37,9 @@ export const CasesSection: React.FC = () => {
             number="03"
             index={2}/>
 
-        <div className="plane">
-            <Lottie animationData={animation} loop={true}/>
-        </div>
+        {/*<div className="plane">*/}
+        {/*    <Lottie animationData={animation} loop={true}/>*/}
+        {/*</div>*/}
         
     </div>
 }
