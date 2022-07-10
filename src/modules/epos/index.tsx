@@ -13,6 +13,7 @@ import {
     ThanksForWatching
 } from "@/components/icons/icons";
 import {Link} from "gatsby";
+import {Helmet} from "react-helmet";
 
 export function EposProject() {
     useEffect(() => {
@@ -20,6 +21,10 @@ export function EposProject() {
     }, [])
 
     return <div className="epos">
+        <Helmet>
+            <title>Yaroslav Zotov | Epos Next</title>
+        </Helmet>
+        
         <div className="epos-container">
             <main>
                 <Header variant="light"/>
