@@ -10,6 +10,9 @@ const OutlineTitle = styled.span`
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   
+  @media (max-width: 550px) {
+    -webkit-text-stroke: 1px var(--primary);
+  }
 `
 
 export default OutlineTitle

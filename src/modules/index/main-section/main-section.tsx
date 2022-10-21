@@ -25,7 +25,7 @@ export const MainSection: React.FC = () => {
                 <path d="M20 29.54L0 46L8.615 23L20 29.54Z" fill="#3265b3"/>
             </svg>
             
-            <span className="margin-designer">Developer</span><br/>
+            <span className="margin-developer">Developer</span><br/>
             Creating Web, Mobile & Backend Apps
         </H1>
 
