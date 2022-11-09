@@ -24,7 +24,7 @@ export const CasesSection: React.FC = () => {
             preview="/images/phototime.jpg"
             client="Phototime"
             text="App calculates the time of the golden and blue hours, and also shows the weather anywhere in the world. A trusted assistant for any photographer"
-            number="01"
+            number="02"
             index={2}/>
 
         <ProjectPreview
