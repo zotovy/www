@@ -36,5 +36,15 @@ export const CasesSection: React.FC = () => {
             text='Lumi is our project for the contest of IT projects "Perspective". This is a qualified second opinion that helps doctors diagnose dangerous diseases with the help of AI.'
             number="03"
             index={3}/>
+
+        <ProjectPreview
+            coming={false}
+            href="/projects/credit"
+            title="Developing Landing and CRM"
+            preview="/images/credit/preview.png"
+            client="Rocket Work"
+            text='Rocket Work was launching a new project to issue loans to the self-employed. I was developing a landing page and an internal admin panel for bank employees and managers.'
+            number="04"
+            index={4}/>
     </div>
 }

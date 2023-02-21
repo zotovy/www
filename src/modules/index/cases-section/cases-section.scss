@@ -114,8 +114,33 @@
 
     .project-3 {
         width: 45%;
-        margin: 80px 0 180px 0;
+        margin: 80px 0 300px 0;
         animation: anim-text 1300ms cubic-bezier(0, 0.45, 0.15, 1);
+
+        .project-img {
+            background-color: #E4809C
+        }
+
+        @media (min-width: 830px) and (max-width: 1080px) {
+            width: 100%;
+            margin: 50px 0 0 0;
+            padding: 0;
+            align-self: auto;
+        }
+
+        @media (max-width: 834px) {
+            width: 100%;
+            margin: 50px 0 0 0;
+            padding: 0;
+            align-self: auto
+        }
+    }
+
+    .project-4 {
+        width: 45%;
+        margin: 200px 0 180px 0;
+        animation: anim-text 1300ms cubic-bezier(0, 0.45, 0.15, 1);
+        align-self: flex-end;
 
         .project-img {
             background-color: #E4809C
