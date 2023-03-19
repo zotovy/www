@@ -1,0 +1,38 @@
+@keyframes anim-text {
+    0% {
+        transform: skew(0, 10deg) rotate(10deg) translate(200px, 1400px);
+        opacity: 0
+    }
+    60% {
+        transform: skew(0, 10deg) rotate(10deg) translate(200px, 1400px);
+        opacity: 0
+    }
+    100% {
+        transform: skew(0, 0) rotate(0) translate(0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes scale-background {
+    0% {
+        transform: scale(20) rotate(40deg)
+    }
+    20% {
+        transform: scale(20) rotate(40deg)
+    }
+    50% {
+        transform: scale(1) rotate(0)
+    }
+    100% {
+        transform: scale(1) rotate(0)
+    }
+}
+
+@keyframes line-fade-in-anim {
+    0% {
+        transform: scale(0) rotate(-45deg);
+    }
+    100% {
+        transform: scale(1) rotate(-45deg);
+    }
+}

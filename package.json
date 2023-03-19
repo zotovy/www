@@ -1,0 +1,76 @@
+{
+  "name": "zotov-www",
+  "private": false,
+  "description": "My personal website and portfolio",
+  "version": "0.1.0",
+  "author": "Yaroslav Zotov <m@zotov.dev>",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "classnames": "^2.3.1",
+    "dotenv": "^16.0.1",
+    "gatsby": "^4.17.2",
+    "gatsby-plugin-gatsby-cloud": "^4.17.0",
+    "gatsby-plugin-google-analytics": "^4.17.0",
+    "gatsby-plugin-image": "^2.17.0",
+    "gatsby-plugin-manifest": "^4.17.0",
+    "gatsby-plugin-offline": "^5.17.0",
+    "gatsby-plugin-react-helmet": "^5.17.0",
+    "gatsby-plugin-sass": "^5.17.0",
+    "gatsby-plugin-sharp": "^4.17.0",
+    "gatsby-plugin-styled-components": "^5.17.0",
+    "gatsby-source-filesystem": "^4.17.0",
+    "gatsby-transformer-sharp": "^4.17.0",
+    "lottie-react": "^2.3.1",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-helmet": "^6.1.0",
+    "react-scroll-parallax": "^3.2.0",
+    "sass": "^1.32.12",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/animejs": "^3.1.4",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-helmet": "^6.1.1",
+    "@types/styled-components": "^5.1.9",
+    "babel-loader": "^8.2.2",
+    "babel-preset-airbnb": "^5.0.0",
+    "gatsby-plugin-tsconfig-paths": "^1.0.3",
+    "gatsby-plugin-typescript": "^4.17.0",
+    "prettier": "2.7.1",
+    "storybook-addon-styled-component-theme": "^2.0.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

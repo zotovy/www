@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Averta;
+    src: url("/fonts/hinted-Averta-Bold.eot");
+    src: url("/fonts/hinted-Averta-Bold.eot#iefix") format("embedded-opentype"), url("/fonts/Averta Bold.woff2") format("woff2"), url("/fonts/hinted-Averta-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Cotham;
+    src: url("/fonts/cothamsans-webfont.woff2") format("woff2"), url("/fonts/cothamsans-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+body {
+    overflow: visible;
+}
+
+*::selection {
+    background-color: #b6cfff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+}
+
+:root {
+    --primary: #0063FF;
+    --primaryActive: #b0ceff;
+    --primaryHover: #0e3cc8;
+    --primaryLight: #E9F5FF;
+    --primaryLightHover: #e0ecf5;
+    --text: #192531;
+    --secondary: #76869F;
+    --secondaryHover: #576477;
+}
+
+@keyframes fadeAnim {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Cotham", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--secondary);
+}
+
+a {
+    font-family: "Averta", sans-serif;
+    color: var(--secondary);
+    font-size: 16px;
+}
+
+a:hover {
+    color: var(--secondaryHover);
+}
