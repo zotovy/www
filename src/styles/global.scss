@@ -1,20 +1,4 @@
-@font-face {
-    font-family: Averta;
-    src: url("/fonts/hinted-Averta-Bold.eot");
-    src: url("/fonts/hinted-Averta-Bold.eot#iefix") format("embedded-opentype"), url("/fonts/Averta Bold.woff2") format("woff2"), url("/fonts/hinted-Averta-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: Cotham;
-    src: url("/fonts/cothamsans-webfont.woff2") format("woff2"), url("/fonts/cothamsans-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap
-}
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +20,9 @@ body, html {
 
 body {
     overflow: visible;
+    background: black;
+    font-family: "DM Sans", sans-serif;
+    color: white;
 }
 
 *::selection {
@@ -80,21 +67,4 @@ html {
     max-width: 1600px;
     margin: 0 auto;
     box-sizing: border-box;
-}
-
-p {
-    font-family: "Cotham", sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    color: var(--secondary);
-}
-
-a {
-    font-family: "Averta", sans-serif;
-    color: var(--secondary);
-    font-size: 16px;
-}
-
-a:hover {
-    color: var(--secondaryHover);
 }

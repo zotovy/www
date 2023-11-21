@@ -1,0 +1,57 @@
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    cursor: pointer;
+
+    &:hover {
+        .image {
+            background-size: 105%;
+
+            .link-icon {
+                opacity: 1;
+                transform: scale(1);
+                
+                img {
+                    rotate: -45deg;
+                }
+            }
+        }
+    }
+
+    .image {
+        width: 100%;
+        border-radius: 5%;
+        transition: 350ms ease;
+        background-size: 100%;
+        background-position: center;
+        position: relative;
+        aspect-ratio: 600 / 454;
+
+        .link-icon {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 350ms ease;
+            opacity: 0;
+            transform: scale(0.9);
+            
+            img {
+                width: 28px;
+                height: 28px;
+                transition: 350ms ease;
+            }
+        }
+    }
+
+    .link-hover-container {
+        opacity: 1;
+    }
+}

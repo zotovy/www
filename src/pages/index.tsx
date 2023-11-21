@@ -1,20 +1,16 @@
-import React, {useEffect} from "react"
+import React from "react"
 import Seo from "seo";
-import Header from "@/components/header";
-import MainSection from "@modules/index/main-section";
-import CasesSection from "@modules/index/cases-section";
-import ContactsSection from "@modules/index/contacts-section";
+import { Header } from "@/components/header/header";
+import { MainSection } from "@/sections/index/main/main-section";
+import { ProjectsSection } from "@/sections/index/projects/projects-section";
+import { Footer } from "@/components/footer/footer";
 
 export default function IndexPage() {
-  useEffect(() => {
-    document.body.style.background = "white"
-  }, [])
-  
-  return <div className="content">
-    <Seo/>
-    <Header/>
-    <MainSection/>
-    <CasesSection/>
-    <ContactsSection/>
-  </div>
+    return <div className="content">
+        <Seo/>
+        <Header/>
+        <MainSection/>
+        <ProjectsSection/>
+        <Footer/>
+    </div>
 }
