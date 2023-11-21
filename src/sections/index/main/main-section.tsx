@@ -2,19 +2,18 @@ import React, { FC, memo } from "react";
 import { motion } from "framer-motion";
 import "./main-section.scss";
 import { Link } from "@/components/link/link";
+import { Subtitle, Title } from "@/components/typography/typography";
 
 export type MainSectionProps = {}
 
 export const MainSection: FC<MainSectionProps> = memo(() => {
     return <main className="index-main-section">
-        <motion.h4 { ...animation } className="subtitle">
+        <Subtitle>
             I help companies to create high-load expandable systems fast and qualitative, focusing on provide the
             best user experience, reliability and sustainability of your application
-        </motion.h4>
+        </Subtitle>
         <div className="container">
-            <motion.h1 { ...animation } className="title">
-                Freelance Fullstack<br/>Developer
-            </motion.h1>
+            <Title>Freelance Fullstack<br/>Developer</Title>
             <motion.div
                 initial={ {y: 20, opacity: 0} }
                 animate={ {y: 0, opacity: 1} }
@@ -26,9 +25,3 @@ export const MainSection: FC<MainSectionProps> = memo(() => {
         </div>
     </main>
 })
-
-const animation = {
-    initial: {y: 80, opacity: 0},
-    animate: {y: 0, opacity: 1},
-    transition: {duration: 1.2, ease: [0.44, 0, 0.56, 1]},
-}
