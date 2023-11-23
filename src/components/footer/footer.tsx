@@ -1,6 +1,7 @@
 import React, { FC, memo } from "react";
 import "./footer.scss";
 import { Link } from "@/components/link/link";
+import { Button } from "@/components/button/button";
 
 export type FooterProps = {}
 
@@ -10,7 +11,7 @@ export const Footer: FC<FooterProps> = memo(() => {
             <h4 className="text">
                 Interested? Let's get in touch. 
             </h4>
-            <a href="mailto:hello@zotov.dev" className="button">hello@zotov.dev</a>
+            <Button href="mailto:hello@zotov.dev">hello@zotov.dev</Button>
         </div>
         <div className="explore">
             <span className="explore-text">Explore</span>

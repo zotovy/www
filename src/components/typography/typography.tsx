@@ -1,13 +1,19 @@
 import React, { FC, memo, ReactNode } from "react";
 import { motion } from "framer-motion";
 import "./typography.scss"
+import classNames from "classnames";
 
 export type TypographyProps = {
-    children?: ReactNode
+    children?: ReactNode,
+    className?: string,
 }
 
 export const Title: FC<TypographyProps> = memo(props => {
-    return <motion.h1 { ...fadeInAnimation } className="title-component">{ props.children }</motion.h1>
+    return <motion.h1
+        { ...fadeInAnimation }
+        className={classNames("title-component", props.className)}>
+        { props.children }
+    </motion.h1>
 })
 
 export const Subtitle: FC<TypographyProps> = memo(props => {
