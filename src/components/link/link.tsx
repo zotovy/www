@@ -10,6 +10,7 @@ export type LinkProps = {
     className?: string,
     hovered?: boolean,
     setHovered?: (val: boolean) => any,
+    size?: number
 }
 
 export const Link: FC<LinkProps> = memo((props) => {
@@ -33,13 +34,13 @@ export const Link: FC<LinkProps> = memo((props) => {
         onMouseLeave={ () => setHovered(false) }>
         <AnimatedWord
             isHovered={ isHovered }
-            animation={ letterAnimation }>
+            animation={ letterAnimation(props.size ?? 30) }>
             { props.children }
         </AnimatedWord>
         <div className="link-hover-container">
             <AnimatedWord
                 isHovered={ isHovered }
-                animation={ letterAnimationTwo }>
+                animation={ letterAnimationTwo(props.size ?? 30) }>
                 { props.secondLink ?? props.children }
             </AnimatedWord>
         </div>
@@ -77,23 +78,23 @@ const titleAnimation = {
     },
 };
 
-const letterAnimation = {
+const letterAnimation = (size: number) =>({
     rest: {
         y: 0,
     },
     hover: {
-        y: -30,
+        y: -size,
         transition: {
             duration: 0.3,
             ease: [0.6, 0.01, 0.05, 0.95],
             type: "tween",
         },
     },
-};
+});
 
-const letterAnimationTwo = {
+const letterAnimationTwo = (size: number) =>({
     rest: {
-        y: 30,
+        y: size,
     },
     hover: {
         y: 0,
@@ -103,4 +104,4 @@ const letterAnimationTwo = {
             type: "tween",
         },
     },
-};
+});

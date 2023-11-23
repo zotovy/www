@@ -1,0 +1,17 @@
+.contact-main-section {
+    width: 100vw;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 160px 80px 0;
+
+    @media (max-width: 1099px) and (min-width: 768px) {
+        padding: 160px 40px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 160px 40px 0;
+    }
+}

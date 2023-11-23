@@ -3,6 +3,7 @@ import "./project-tile.scss";
 import { Link } from "@/components/link/link";
 import { motion } from "framer-motion";
 import { ScrollAnimated } from "@/components/scroll-animated/scroll-animated";
+import { LinkIcon } from "@/components/svgs";
 
 export type ProjectTileProps = {
     image: string;
@@ -30,28 +31,11 @@ export const ProjectTile: FC<ProjectTileProps> = memo((props) => {
             <Link
                 setHovered={() => null}
                 hovered={ isHovered }
-                secondLink={ <Fragment>{ props.description }<Svg/></Fragment> }
+                secondLink={ <Fragment>{ props.description }<LinkIcon/></Fragment> }
                 href={ props.href }>
-                { props.name }<Svg/>
+                { props.name }<LinkIcon/>
             </Link>
         </motion.a>
     </ScrollAnimated>
 })
 
-const Svg: FC = memo(() => {
-    return <svg width={ 12 } height={ 12 } viewBox="0 0 12 12" fill="none">
-        <path
-            d="M10.5 1.5L1.5 10.5"
-            stroke="white"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        />
-        <path
-            d="M4.5 1.5H10.5V7.5"
-            stroke="white"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        />
-    </svg>
-
-})

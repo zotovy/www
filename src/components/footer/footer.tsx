@@ -19,7 +19,7 @@ export const Footer: FC<FooterProps> = memo(() => {
                 <Link href="https://t.me/zotovy">Telegram</Link>
                 <Link href="/about">About</Link>
                 <Link href="https://github.com/zotovy">Github</Link>
-                <Link href="/contact">Contact</Link>
+                <Link href="/Contact">Contact</Link>
                 <Link href="mailto:hello@zotov.dev">Email</Link>
             </div>
         </div>
