@@ -1,0 +1,29 @@
+.projects-text {
+    width: 100vw;
+    max-width: 1400px;
+    margin: 140px auto 0;
+    padding: 0 80px;
+
+    @media (max-width: 1099px) and (min-width: 768px) {
+        padding: 0 40px;
+        margin-top: 80px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0 20px;
+        margin-top: 80px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 1.4;
+        
+        @media (max-width: 1099px) and (min-width: 768px) {
+           font-size: 22px;
+        }
+    
+        @media (max-width: 767px) {
+            font-size: 22px;
+        }
+    }
+}

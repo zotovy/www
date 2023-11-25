@@ -14,12 +14,14 @@
     "removeComments": false,
     "preserveConstEnums": true,
     "baseUrl": "src",
+    "resolveJsonModule": true,
     "paths": {
       "@/components/*": [ "components/*" ],
       "@/sections/*": [ "sections/*" ],
       "@/config/*": [ "config/*" ],
       "@/layouts/*": [ "layouts/*" ],
-      "@analytics": [ "analytics" ]
+      "@analytics": [ "analytics" ],
+      "@modules/*": [ "modules/*" ],
     }
   },
   "include": ["./src/**/*", "./stories/**/*"]

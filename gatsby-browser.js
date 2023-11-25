@@ -1,4 +1,4 @@
-import "./src/global.scss";
+import "./src/styles/global.scss";
 import wrapper from "./wrapRootElement"
 
 export const wrapRootElement = wrapper;

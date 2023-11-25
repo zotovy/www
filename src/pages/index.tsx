@@ -1,18 +1,16 @@
 import React from "react"
-import Main from "@/sections/main"
-import TechStack from "@/sections/tech-stack"
-import AboutMe from "@/sections/about-me"
-import MyProjects from "@/sections/my-projects"
-import ContactMe from "@/sections/contact-me"
-import Seo from "../seo";
+import Seo from "seo";
+import { Header } from "@/components/header/header";
+import { MainSection } from "@/sections/index/main/main-section";
+import { ProjectsSection } from "@/sections/index/projects/projects-section";
+import { Footer } from "@/components/footer/footer";
 
 export default function IndexPage() {
-  return <div>
-    <Seo/>
-    <Main />
-    <TechStack />
-    <AboutMe />
-    <MyProjects />
-    <ContactMe />
-  </div>
+    return <div className="content">
+        <Seo/>
+        <Header/>
+        <MainSection/>
+        <ProjectsSection/>
+        <Footer/>
+    </div>
 }

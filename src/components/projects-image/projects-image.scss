@@ -1,0 +1,25 @@
+.projects-image {
+    width: 100vw;
+    max-width: 1400px;
+    margin: 100px auto 0;
+    padding: 0 80px;
+
+    @media (max-width: 1099px) and (min-width: 768px) {
+        padding: 0 40px;
+        margin-top: 80px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0 20px;
+        margin-top: 80px;
+    }
+
+    .container {
+        width: 100%;
+        
+        img {
+            border-radius: 24px;
+            width: 100%;
+        }
+    }
+}
