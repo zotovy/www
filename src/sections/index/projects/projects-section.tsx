@@ -16,7 +16,7 @@ export const ProjectsSection: FC<ProjectsSectionProps> = memo(() => {
         <ProjectTile
             name="Phototime"
             description="Developing the best mobile app for photographers"
-            href="phototime.zotov.dev"
+            href="https://phototime.zotov.dev"
             image="/images/phototime.jpg"/>
         <ProjectTile
             name="Lumi"
