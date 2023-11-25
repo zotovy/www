@@ -39,7 +39,7 @@ const Lumi: FC = memo(() => {
         <ProjectsText>
             Pocket version of Lumi service. Available on both IOS & Android.
         </ProjectsText>
-        <ProjectsImage src="/images/lumi/mobile.png"/>
+        <ProjectsImage src="/images/lumi/dashboard-mobile.png"/>
         <Footer/>
     </div>
 })
