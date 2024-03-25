@@ -1,0 +1,14 @@
+@import "app/styles/media.scss";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include content;
+    padding-top: 20px;
+    
+    .actions {
+        display: inline-flex;
+        gap: 24px;
+    }
+}

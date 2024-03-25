@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat: start v3">
+      <change afterPath="$PROJECT_DIR$/app/[locale]/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/avatar/avatar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/avatar/avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/avatar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/language-change-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/language-change-button/language-change-button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/language-change-button/language-change-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/theme-change-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/typography/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/typography/typography.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/typography/typography.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/TTHoves-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/TTHoves-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/hero/hero-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/hero/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/router.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="nlypzpi5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="290Sn0bg1D5NqevQ2s0xBUc1KAq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Project.color&quot;: &quot;004f3a&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zotovy/Documents/projects/www/public/fonts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/zotovy/Documents/projects/www/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/zotovy/Documents/projects/www/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/static/icons" />
+      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/src/pages/projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/[locale]" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/[lang]" />
+      <recent name="$PROJECT_DIR$/src/components/title" />
+      <recent name="$PROJECT_DIR$/static/images/credit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch:css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.develop" />
+        <item itemvalue="npm.watch:css" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="" />
+      <created>1652248673105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652248673105</updated>
+      <workItem from="1652248674311" duration="1116000" />
+      <workItem from="1655150071240" duration="3000" />
+      <workItem from="1656780927425" duration="7264000" />
+      <workItem from="1656789754573" duration="2839000" />
+      <workItem from="1656836576747" duration="28249000" />
+      <workItem from="1656920822205" duration="1391000" />
+      <workItem from="1656940440491" duration="3135000" />
+      <workItem from="1657292895624" duration="4611000" />
+      <workItem from="1657298829253" duration="5375000" />
+      <workItem from="1657357119540" duration="158000" />
+      <workItem from="1657369961718" duration="15567000" />
+      <workItem from="1657437912044" duration="7062000" />
+      <workItem from="1663922011898" duration="1091000" />
+      <workItem from="1666364746646" duration="8364000" />
+      <workItem from="1667044974280" duration="702000" />
+      <workItem from="1667980635003" duration="556000" />
+      <workItem from="1676543233593" duration="2870000" />
+      <workItem from="1676965427320" duration="3379000" />
+      <workItem from="1677057138066" duration="13000" />
+      <workItem from="1688627236673" duration="1380000" />
+      <workItem from="1692896624143" duration="460000" />
+      <workItem from="1700399518996" duration="3662000" />
+      <workItem from="1700490368217" duration="29142000" />
+      <workItem from="1705092455820" duration="5000" />
+      <workItem from="1710093102564" duration="6611000" />
+      <workItem from="1711401260482" duration="3917000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add phototime project">
+      <created>1652249256451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652249256451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor(comp): rename Title.tsx to title.tsx">
+      <created>1656781098366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656781098366</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor: rename sections">
+      <created>1656781308118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656781308118</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(comp): create hover effect on buttons">
+      <created>1656781761629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656781761629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add hover shadow to contacts">
+      <created>1656782127234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656782127234</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add scale hover to project preview">
+      <created>1656783902906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656783902906</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add golang skill card">
+      <created>1656784033127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656784033127</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: create env config">
+      <created>1656785763031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656785763031</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: setup analytics">
+      <created>1656787307977</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656787307977</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: replace external link with &lt;a/&gt;">
+      <created>1656787385440</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656787385440</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: create header">
+      <created>1656836838181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656836838181</updated>
+    </task>
+    <task id="LOCAL-00012" summary="delete old portfolio">
+      <created>1656845626033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656845626034</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete old portfolio">
+      <created>1656845637202</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656845637202</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add storybook">
+      <created>1656846385713</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656846385713</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(comp): create header">
+      <created>1656850504312</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656850504312</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(landing): create main section">
+      <created>1656857846086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656857846086</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(landing): create main section">
+      <created>1656869466119</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656869466119</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat(landing): create contacts section">
+      <created>1656870670294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656870670294</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat(landing): improve adaptive">
+      <created>1656873469113</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656873469113</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat(landing): add fullstack badge">
+      <created>1656921744679</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656921744679</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactor: remove trash">
+      <created>1656921810265</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656921810265</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix(landing): anima js loading">
+      <created>1656945173733</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656945173733</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: create 404 page">
+      <created>1657301176977</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657301176977</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(404): add transition">
+      <created>1657306169541</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657306169541</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: add plane">
+      <created>1657308020665</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657308020665</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat(projects): add epos">
+      <created>1657393396634</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657393396634</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat(epos): improve adaptive UI">
+      <created>1657441049095</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657441049095</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: add `lumi`">
+      <created>1666372351812</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666372351812</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: add `lumi`">
+      <created>1666372364677</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666372364677</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix: phototime number">
+      <created>1667981308824</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667981308824</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: add credit module">
+      <created>1676983276220</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676983276221</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: new index page">
+      <created>1700575804624</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1700575804624</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: works page">
+      <created>1700577397115</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577397115</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: create about section">
+      <created>1700639231902</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1700639231902</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: create contacts page">
+      <created>1700722555026</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1700722555026</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: start v3">
+      <created>1710093246232</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710093246232</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: setup analytics" />
+    <MESSAGE value="fix: replace external link with &lt;a/&gt;" />
+    <MESSAGE value="feat: create header" />
+    <MESSAGE value="delete old portfolio" />
+    <MESSAGE value="feat: add storybook" />
+    <MESSAGE value="feat(comp): create header" />
+    <MESSAGE value="feat(landing): create main section" />
+    <MESSAGE value="feat(landing): create contacts section" />
+    <MESSAGE value="feat(landing): improve adaptive" />
+    <MESSAGE value="feat(landing): add fullstack badge" />
+    <MESSAGE value="refactor: remove trash" />
+    <MESSAGE value="fix(landing): anima js loading" />
+    <MESSAGE value="feat: create 404 page" />
+    <MESSAGE value="feat(404): add transition" />
+    <MESSAGE value="feat: add plane" />
+    <MESSAGE value="feat(projects): add epos" />
+    <MESSAGE value="feat(epos): improve adaptive UI" />
+    <MESSAGE value="feat: add `lumi`" />
+    <MESSAGE value="fix: phototime number" />
+    <MESSAGE value="feat: add credit module" />
+    <MESSAGE value="feat: new index page" />
+    <MESSAGE value="feat: works page" />
+    <MESSAGE value="feat: create about section" />
+    <MESSAGE value="feat: create contacts page" />
+    <MESSAGE value="feat: start v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: start v3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
