@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat(home): create hero section">
-      <change afterPath="$PROJECT_DIR$/data/projects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/project/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/project/project-section.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/project/project-section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
+    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat(home): add projects">
       <change beforePath="$PROJECT_DIR$/components/avatar/avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/avatar/avatar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +188,7 @@
       <workItem from="1710093102564" duration="6611000" />
       <workItem from="1711401260482" duration="8122000" />
       <workItem from="1711451782929" duration="1816000" />
-      <workItem from="1711453612456" duration="2251000" />
+      <workItem from="1711453612456" duration="2354000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add phototime project">
       <created>1652249256451</created>
@@ -472,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711449596799</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="feat(home): add projects">
+      <created>1711456212326</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1711456212326</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="delete old portfolio" />
     <MESSAGE value="feat: add storybook" />
     <MESSAGE value="feat(comp): create header" />
     <MESSAGE value="feat(landing): create main section" />
@@ -526,7 +523,8 @@
     <MESSAGE value="feat: setup project" />
     <MESSAGE value="feat: implement theme changing" />
     <MESSAGE value="feat(home): create hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(home): create hero section" />
+    <MESSAGE value="feat(home): add projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(home): add projects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
