@@ -29,7 +29,7 @@ export const metadata = {
         siteName: "Yaroslav Zotov",
         images: [
             {
-                url: '/images/open-graph.png',
+                url: '/open-graph.png',
                 width: 1200,
                 height: 630,
             }
@@ -42,7 +42,7 @@ export const metadata = {
         title: "Yaroslav Zotov",
         description: "Personal portfolio of Fullstack Web and Mobile developer Yaroslav Zotov",
         creator: "@zotovy",
-        images: ["/images/twitter.png"],
+        images: ["/twitter.png"],
     }
 }
 
