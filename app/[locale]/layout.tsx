@@ -22,6 +22,28 @@ export const metadata = {
             },
         ],
     },
+    openGraph: {
+        title: "Yaroslav Zotov",
+        description: "Personal portfolio of Fullstack Web and Mobile developer Yaroslav Zotov",
+        url: "https://zotov.dev",
+        siteName: "Yaroslav Zotov",
+        images: [
+            {
+                url: '/images/open-graph.png',
+                width: 1200,
+                height: 630,
+            }
+        ],
+        locale: 'en_US',
+        type: 'website',
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Yaroslav Zotov",
+        description: "Personal portfolio of Fullstack Web and Mobile developer Yaroslav Zotov",
+        creator: "@zotovy",
+        images: ["/images/twitter.png"],
+    }
 }
 
 type RootLayoutProps = {
@@ -39,6 +61,7 @@ export default async function RootLayout({children, params: {locale}}: RootLayou
         <head>
             <link rel="icon" href="/favicon.ico" sizes="any" media="(prefers-color-scheme: light)"/>
             <link rel="icon" href="/favicon-dark.ico" sizes="any" media="(prefers-color-scheme: dark)"/>
+            
         </head>
         <body>
         <Providers>
