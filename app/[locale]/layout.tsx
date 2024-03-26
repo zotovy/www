@@ -8,7 +8,8 @@ import { Providers } from "@/components/providers";
 
 export const metadata = {
     title: 'Yaroslav Zotov',
-    description: 'Yaroslav Zotov website',
+    description: 'Personal portfolio of Fullstack Web and Mobile developer Yaroslav Zotov',
+    keywords: 'react, nextjs, gatsby, development, developer, fullstack, flutter, database, programmer, code, coding, mongodb, postgres, typescript, ui, ux. express, expressjs, asp, dotnet, api, website, mobile, app, webapp, pwa, spa, ssr, sass, css, scss, webdeveloper, webdev',
     icons: {
         icon: [
             {
