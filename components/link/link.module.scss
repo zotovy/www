@@ -1,0 +1,10 @@
+.link {
+    font-size: 18px;
+    color: var(--dark-text-color);
+    transition: color 150ms;
+    cursor: pointer;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}

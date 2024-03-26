@@ -1,0 +1,35 @@
+@import "app/styles/media";
+
+.hero {
+    @include content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 155px;
+    padding-bottom: 180px;
+    gap: 48px;
+    
+    @include media820 {
+        padding-bottom: 150px;
+    }
+    
+    @include media375 {
+        padding-top: 135px;
+        padding-bottom: 100px;
+    }
+    
+    p {
+        max-width: 700px;
+
+        @include media980 {
+            max-width: 620px;
+        } 
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

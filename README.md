@@ -1,43 +1,36 @@
-<h1 align="center">
-	<img src="https://github.com/zotovY/www/blob/master/.github/logo.png?raw=true" height="100px" />
-	<br/>
-</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![Website preview](./.github/screenshot.png)
+## Getting Started
 
-### Available commands
+First, run the development server:
 
-- ``develop`` run gatsby in dev mode development
-- ``build`` build project
-- ``test`` run unit tests
-- ``format`` format code with prettier
-- ``serve`` serve files with gatsby
-- ``clean`` clean cache folder
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Start locally
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Clone repository
-  ```bash
-  git clone https://github.com/zotovY/www
-  ```
-- Install all dependencies
-  ```bash
-  npm install
-  ```
-- Run server with ``npm develop``
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Technologies used
-- [Gatsby](https://www.gatsbyjs.com/) & [React](https://reactjs.org/) as main frameworks
-- [Typescript](https://www.typescriptlang.org/)  – programming language
-- [Styled components](https://github.com/styled-components/styled-components) – styling tool
+## Learn More
 
-### Contribution
-Do you like this project? Want to contribute and make it cooler?
-You can easily do it! First, check
-[contribution.md](https://github.com/zotovY/linkup-web/blob/main/contribution.md).
-Here you can find instructions that can help to build this project.
+To learn more about Next.js, take a look at the following resources:
 
-### Author
-This project was build by [Yaroslav Zotov](https://linkup.zotov.dev/zotovy).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

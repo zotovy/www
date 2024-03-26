@@ -1,0 +1,14 @@
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark-text-color);
+    transition: color 150ms;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--dark-text-color);
+    transition: color 150ms;
+    //letter-spacing: 0.03rem;
+}
