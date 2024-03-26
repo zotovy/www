@@ -13,11 +13,11 @@ export const metadata = {
         icon: [
             {
                 media: '(prefers-color-scheme: light)',
-                url: '/favicon.icon',
+                url: '/favicon.ico',
             },
             {
                 media: '(prefers-color-scheme: dark)',
-                url: '/favicon-light.icon',
+                url: '/favicon-dark.ico',
             },
         ],
     },
@@ -36,7 +36,8 @@ export default async function RootLayout({children, params: {locale}}: RootLayou
     return (
         <html lang={ locale } suppressHydrationWarning>
         <head>
-            <link rel="icon" href="/public/favicon.ico" sizes="any"/>
+            <link rel="icon" href="/favicon.ico" sizes="any" media="(prefers-color-scheme: light)"/>
+            <link rel="icon" href="/favicon-dark.ico" sizes="any" media="(prefers-color-scheme: dark)"/>
         </head>
         <body>
         <Providers>

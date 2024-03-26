@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat: setup project">
-      <change afterPath="$PROJECT_DIR$/components/logo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/logo/logo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/providers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/providers/providers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/use-mounted.ts" afterDir="false" />
+    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat: implement theme changing">
+      <change afterPath="$PROJECT_DIR$/components/link/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/link/link.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/link/link.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/typography/typography.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/typography/typography.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/hero/hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sections/hero/hero-section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +30,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -200,7 +197,7 @@
       <workItem from="1700490368217" duration="29142000" />
       <workItem from="1705092455820" duration="5000" />
       <workItem from="1710093102564" duration="6611000" />
-      <workItem from="1711401260482" duration="5746000" />
+      <workItem from="1711401260482" duration="8011000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add phototime project">
       <created>1652249256451</created>
@@ -461,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711405208693</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="feat: implement theme changing">
+      <created>1711442012950</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711442012950</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: replace external link with &lt;a/&gt;" />
     <MESSAGE value="feat: create header" />
     <MESSAGE value="delete old portfolio" />
     <MESSAGE value="feat: add storybook" />
@@ -515,7 +518,8 @@
     <MESSAGE value="feat: create contacts page" />
     <MESSAGE value="feat: start v3" />
     <MESSAGE value="feat: setup project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: setup project" />
+    <MESSAGE value="feat: implement theme changing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement theme changing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

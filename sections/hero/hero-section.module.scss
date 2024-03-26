@@ -1,14 +1,29 @@
 @import "app/styles/media";
 
 .hero {
+    @include content;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 155px;
-    @include content;
     gap: 48px;
+    
+    @include media375 {
+        padding-top: 135px;
+    }
     
     p {
         max-width: 700px;
+
+        @include media980 {
+            max-width: 620px;
+        } 
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
 }
