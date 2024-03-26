@@ -6,5 +6,5 @@ export type AvatarProps = {
 }
 
 export const Avatar: FC<AvatarProps> = memo(() => {
-    return <img className={styles.avatar} src="/images/avatar.png"/>
+    return <img className={styles.avatar} src="/images/avatar.png" alt=""/>
 })

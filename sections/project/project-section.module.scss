@@ -1,0 +1,55 @@
+@import "app/styles/media";
+
+.section {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    .info {
+        @include content;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        margin-bottom: 28px;
+    }
+    
+    .photos {
+        padding-left: max(calc((100vw - 900px) / 2), 20px);
+        display: flex;
+        gap: 40px;
+        max-width: 100vw;
+        overflow-x: scroll;
+        
+        @include media980 {
+            padding-left: max(calc((100vw - 700px) / 2), 20px);
+        }
+
+        @include media820 {
+            padding-left: max(calc((100vw - 540px) / 2), 20px);
+        }
+        
+        .image {
+            width: 560px;
+            height: 560px;
+            border-radius: 40px;
+
+            @include media820 {
+                width: 480px;
+                height: 480px;
+                border-radius: 36px;
+            }
+
+            @include media375 {
+                width: 256px;
+                height: 256px;
+                border-radius: 20px;
+            }
+            
+            &:last-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}

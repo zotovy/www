@@ -1,10 +1,12 @@
+import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
 import { Header } from "@/components/header";
 import { HeroSection } from "@/sections/hero";
-import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
+import { getProjects } from "@/data/projects";
+import { ProjectSection } from "@/sections/project";
 
 type IndexProps = {
     params: {
-        locale: string,
+        locale: 'en' | 'ru',
     }
 }
 
@@ -14,6 +16,12 @@ function Index({params: {locale}}: IndexProps) {
     return <main>
         <Header/>
         <HeroSection/>
+
+        {
+            getProjects(locale).map(
+                (project, i) => <ProjectSection key={ `project-${ i }-${ locale }` } project={ project }/>
+            )
+        }
     </main>
 }
 
