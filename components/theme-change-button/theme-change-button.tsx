@@ -1,13 +1,30 @@
+'use client'
+
 import { FC, memo } from "react";
 import styles from "./theme-change-button.module.scss";
+import { useTheme } from "next-themes";
+import { useMounted } from "@/utils/use-mounted";
 
 export type ThemeChangeButtonProps = {}
 
 export const ThemeChangeButton: FC<ThemeChangeButtonProps> = memo(() => {
-    return <span className={styles.button}>
-        <MoonIcon/>
-    </span>
+    const {theme, setTheme} = useTheme()
+    const mounted = useMounted()
+    
+    if (!mounted) {
+        return <div className={ styles.button }/>
+    }
+    
+    return <div
+        className={ styles.button }
+        onClick={ () => setTheme(theme == "dark" ? "light" : "dark") }>
+        {
+            theme == "dark" ? <SunIcon/> : <MoonIcon/>
+        }
+    </div>
 })
+
+
 
 const MoonIcon: FC = memo(() => {
     return <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

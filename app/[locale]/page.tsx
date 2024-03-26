@@ -21,7 +21,7 @@ export default Index;
 
 
 export async function generateMetadata({params: {locale}}: IndexProps) {
-    const t = await getTranslations({locale, namespace: 'Metadata'});
+    const t = await getTranslations({locale, namespace: 'metadata'});
 
     return {
         title: t('title')

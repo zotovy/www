@@ -1,9 +1,10 @@
+import { ReactNode } from "react";
+import { unstable_setRequestLocale } from "next-intl/server";
 import "@/app/styles/normalize.css"
 import "@/app/styles/fonts.scss"
 import "@/app/styles/globals.scss"
 import "@/app/styles/colors.scss"
-import { ReactNode } from "react";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { Providers } from "@/components/providers";
 
 export const metadata = {
     title: 'Yaroslav Zotov',
@@ -29,15 +30,19 @@ type RootLayoutProps = {
     }
 }
 
-export default async function RootLayout({children, params: { locale }}: RootLayoutProps) {
+export default async function RootLayout({children, params: {locale}}: RootLayoutProps) {
     unstable_setRequestLocale(locale);
-    
+
     return (
-        <html lang={locale}>
+        <html lang={ locale } suppressHydrationWarning>
         <head>
-            <link rel="icon" href="/public/favicon.ico" sizes="any" />
+            <link rel="icon" href="/public/favicon.ico" sizes="any"/>
         </head>
-        <body>{ children }</body>
+        <body>
+        <Providers>
+            { children }
+        </Providers>
+        </body>
         </html>
     )
 }

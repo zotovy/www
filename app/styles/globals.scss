@@ -16,6 +16,7 @@ html, body {
 
 body {
     background: var(--background-color);
+    transition: background 150ms;
 }
 
 a {

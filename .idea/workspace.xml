@@ -4,40 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat: start v3">
-      <change afterPath="$PROJECT_DIR$/app/[locale]/page.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/avatar/avatar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/avatar/avatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/avatar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/language-change-button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/language-change-button/language-change-button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/language-change-button/language-change-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/theme-change-button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/typography/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/typography/typography.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/typography/typography.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/TTHoves-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/TTHoves-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/hero/hero-section.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/hero/hero-section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/hero/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/router.ts" afterDir="false" />
+    <list default="true" id="2c5ea5fb-f6dd-4d06-94d3-af0a6c9fd45d" name="Changes" comment="feat: setup project">
+      <change afterPath="$PROJECT_DIR$/components/logo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/logo/logo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/providers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/providers/providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/use-mounted.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo/logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/theme-change-button/theme-change-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/typography/typography.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/typography/typography.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +33,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -117,11 +99,11 @@
       <recent name="$PROJECT_DIR$/src/pages/projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/logo" />
       <recent name="$PROJECT_DIR$/app/[locale]" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/[lang]" />
       <recent name="$PROJECT_DIR$/src/components/title" />
-      <recent name="$PROJECT_DIR$/static/images/credit" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -218,7 +200,7 @@
       <workItem from="1700490368217" duration="29142000" />
       <workItem from="1705092455820" duration="5000" />
       <workItem from="1710093102564" duration="6611000" />
-      <workItem from="1711401260482" duration="3917000" />
+      <workItem from="1711401260482" duration="5746000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add phototime project">
       <created>1652249256451</created>
@@ -472,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710093246232</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat: setup project">
+      <created>1711405208693</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711405208693</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: setup analytics" />
     <MESSAGE value="fix: replace external link with &lt;a/&gt;" />
     <MESSAGE value="feat: create header" />
     <MESSAGE value="delete old portfolio" />
@@ -526,7 +514,8 @@
     <MESSAGE value="feat: create about section" />
     <MESSAGE value="feat: create contacts page" />
     <MESSAGE value="feat: start v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: start v3" />
+    <MESSAGE value="feat: setup project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
